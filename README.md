@@ -5,11 +5,11 @@
 ```powershell
 scoop bucket add mesingh https://github.com/meSingh/scoop-bucket
 scoop install polinrider-cleaner
-polinrider-check -Roots C:\work
+polinrider
 ```
 
 | App | What it is |
 |---|---|
-| [`polinrider-cleaner`](bucket/polinrider-cleaner.json) | The Windows check from [polinrider-cleaner](https://github.com/meSingh/polinrider-cleaner): finds and quarantines PolinRider artifacts on one machine. Read-only unless you pass `-Apply`. |
+| [`polinrider-cleaner`](bucket/polinrider-cleaner.json) | The [polinrider-cleaner](https://github.com/meSingh/polinrider-cleaner) binary: checks this machine, local repositories and GitHub accounts and organizations for the PolinRider campaign. Read-only unless you pass `--apply`. |
 
-Manifests install from the signed release tarballs and pin the release checksum. `checkver` and `autoupdate` track new releases via the published `SHA256SUMS`.
+Manifests install the prebuilt release binaries and pin the release checksum. `checkver` and `autoupdate` track new releases via the published `SHA256SUMS`.
