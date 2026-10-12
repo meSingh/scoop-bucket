@@ -1,13 +1,12 @@
 {
-    "version": "2.0.0",
+    "version": "2.1.0",
     "description": "Detect and clean up after the PolinRider supply-chain campaign: this machine, local repositories, GitHub accounts and organizations. Read-only unless you pass --apply.",
     "homepage": "https://github.com/meSingh/polinrider-cleaner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/meSingh/polinrider-cleaner/releases/download/v2.0.0/polinrider-v2.0.0-windows-x86_64.tar.gz",
-            "hash": "58d133a7fac3a3b90c089d12c8a407195c3f10359227949811323d75343c4c10",
-            "extract_dir": "polinrider-v2.0.0-windows-x86_64"
+            "url": "https://github.com/meSingh/polinrider-cleaner/releases/download/v2.1.0/polinrider-v2.1.0-windows-x86_64.zip",
+            "hash": "bb0b06421b9debba9a3f0c4b86aaa00c70a1baa1ddb880425370fa4d87a89ee1"
         }
     },
     "bin": "polinrider.exe",
@@ -19,8 +18,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/meSingh/polinrider-cleaner/releases/download/v$version/polinrider-v$version-windows-x86_64.tar.gz",
-                "extract_dir": "polinrider-v$version-windows-x86_64"
+                "url": "https://github.com/meSingh/polinrider-cleaner/releases/download/v$version/polinrider-v$version-windows-x86_64.zip"
             }
         },
         "hash": {
