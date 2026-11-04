@@ -11,6 +11,9 @@
     },
     "bin": "polinrider.exe",
     "notes": [
+        "Renamed to polinrider-scanner from 3.0.0. This manifest stays at 2.3.0 and gets no updates. To move to the new name:",
+        "  scoop uninstall polinrider-cleaner",
+        "  scoop install polinrider-scanner",
         "Start with:  polinrider",
         "It asks what you want to check. Nothing changes unless you pass --apply."
     ],
