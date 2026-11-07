@@ -1,12 +1,12 @@
 {
-    "version": "3.0.0",
+    "version": "3.0.1",
     "description": "Detect and clean up after the PolinRider supply-chain campaign: this machine, local repositories, GitHub accounts and organizations. Read-only unless you pass --apply.",
     "homepage": "https://github.com/meSingh/polinrider-scanner",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/meSingh/polinrider-scanner/releases/download/v3.0.0/polinrider-v3.0.0-windows-x86_64.zip",
-            "hash": "f3600a9c7fbbf47e31ef8411a4b61b7bc771307ef7edb1e704ee09caf043919e"
+            "url": "https://github.com/meSingh/polinrider-scanner/releases/download/v3.0.1/polinrider-v3.0.1-windows-x86_64.zip",
+            "hash": "68f586dc644f3bab189d58a8b4fcff44fdd6b1d8ad1ef448a94cada7d414d6cd"
         }
     },
     "bin": "polinrider.exe",
